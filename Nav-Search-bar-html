@@ -1,0 +1,18 @@
+<header>
+        <div class="nav">
+            <h2 class="logo"><a>mamun</a></h2>
+            <input class="nav-search" placeholder="Search">
+            <button class="navbar-search-icon"><i class="fa-solid fa-magnifying-glass"></i></button>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Activities</a></li>
+                    <li><a href="#">Packages</a></li>
+                    <li><a href="#">Testimonials</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </nav>
+            <h2></h2>
+        </div>
+    </header>
