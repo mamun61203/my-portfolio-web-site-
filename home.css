@@ -1,0 +1,533 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border=border-box;
+    color: #efefef;
+    font-family: "Inter", sans-serif;
+}
+
+.nav{
+    background: #16a085;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    vertical-align: middle;
+    
+}
+.logo a{
+    font-family: "Sixtyfour Convergence", sans-serif;
+}
+
+nav li{
+    display: inline-block;
+}
+
+.nav a{
+    margin: 0 25px;
+    font-size: 20px;
+    text-decoration: none;
+
+}
+
+nav a:hover{
+    padding: 10px 20px;
+    border-bottom-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-color: #2ecc71;
+}
+
+.hero-background{
+    width: 100%;
+    height: 800px;
+    background-image: url('../image/luxury-home-0.jpg');
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.hero-home{
+    width: 50%;
+    height: 350;
+    text-align: center;
+}
+
+.hero-home h2{
+    margin: 0 0 20px 0;
+    font-size: 35px;
+}
+
+.hero-home p{
+    line-height: 25px;
+    font-size: 18px;
+}
+
+.hero-home a{
+    display: inline-block;
+    background: #2ecc71;
+    margin: 25px 0 10px 0;
+    font-size: 25px;
+    padding: 15px 20px;
+    border-bottom-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.hero-home a:hover{
+    background-color: #16a085;
+}
+
+.hero-area{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #ddd;
+}
+
+.hero-blog{
+    width: 40%;
+    height: 470px;
+    background: #9e7bd6;
+    margin: 20px 20px;
+    text-align: center;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.hero-blog1{
+    width: 40%;
+    height: 500px;
+    background: #9e7bd6;
+    margin: 20px 20px;
+    text-align: center;
+    border-radius: 10px;
+    
+}
+
+.hero-blog a{
+    display: inline-block;
+    margin-top: 10px;
+    background: #2ecc71;
+    padding: 15px 20px;
+    border-bottom-left-radius: 15px;
+    border-top-right-radius: 15px;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.hero-blog a:hover{
+    background-color: #16a085;
+}
+
+
+.hero-blog1 img{
+    width: 100%;
+    height: 500px;
+    border-radius: 10px;
+    font-size: 35px;
+
+}
+
+.hero-blog h1{
+    margin-top: 50px;
+    margin-bottom: 15px;
+}
+
+.hero-blog p{
+    margin: 20px 0;
+    line-height: 28px;
+    font-size: 18px;
+}
+
+
+.home2{
+    background-image: url('../image/sofa-outdor.jpg');
+    height: 700px;
+    width: 100%;
+    background-size: cover;
+    margin-top: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.home-text{
+    width: 50%;
+    height: 350;
+    text-align: center;
+}
+
+.home-text h2{
+    margin: 0 0 20px 0;
+    font-size: 35px;
+}
+
+.home-text p{
+    line-height: 25px;
+    font-size: 18px;
+}
+
+.home-text a{
+    display: inline-block;
+    background: #2ecc71;
+    margin: 25px 0 10px 0;
+    font-size: 25px;
+    padding: 15px 20px;
+    border-bottom-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.home-text a:hover{
+    background-color: #16a085;
+}
+
+.blog-item{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.content1{
+    background-color: #495057;
+    width: 395px;
+    height: 520px;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    
+}
+
+.content2{
+    background-color: #495057;
+    width: 395px;
+    height: 520px;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+
+.content3{
+    background-color: #495057;
+    width: 395px;
+    height: 520px;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.content4{
+    background-color: #495057;
+    width: 395px;
+    height: 520px;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.content5{
+    background-color: #495057;
+    width: 395px;
+    height: 520px;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.content6{
+    background-color: #495057;
+    width: 395px;
+    height: 520px;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    
+
+}
+
+.blog-item img{
+    width: 100%;
+    height: 250px;
+    border-radius: 10px;
+}
+
+.blog-item h2{
+    margin: 10px 0;
+}
+.blog-item p{
+    line-height: 20px;
+}
+
+.blog-item p{
+    margin-left: 0;
+}
+
+.blog-item a{
+    margin-top: 10px;
+    display: inline-block;
+    padding: 15px 20px;
+    background-color: red;
+    border-bottom-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background: #2ecc71;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.blog-item a:hover{
+    background-color: #16a085;
+}
+
+/* big blog  */
+
+.home3{
+    background-image: url('../image/darkist.jpg');
+    height: 700px;
+    width: 100%;
+    background-size: cover;
+    margin-top: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-home{
+    width: 50%;
+    height: 350;
+    text-align: center;
+}
+
+.text-home h2{
+    margin: 0 0 20px 0;
+    font-size: 35px;
+}
+
+.text-home p{
+    line-height: 25px;
+    font-size: 18px;
+}
+
+.text-home a{
+    display: inline-block;
+    background: #2ecc71;
+    margin: 25px 0 10px 0;
+    font-size: 25px;
+    padding: 15px 20px;
+    border-bottom-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.text-home a:hover{
+    background-color: #16a085;
+}
+
+.natural{
+    height: auto;
+    display: flex;
+    align-items: center;
+    background: #003049;
+    justify-content: center;
+}
+
+.natural1{
+    width: 90%;
+    height: 200px;
+    background: #588157;
+}
+
+.natural2{
+    width: 40%;
+    height: 200px;
+    background: #588157;
+}
+
+.button-item{
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+
+.natural a{
+    border-bottom-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background: #2ecc71;
+    font-size: 18px;
+    padding: 15px 20px;
+    text-decoration: none;
+}
+
+
+.natural2 h2{
+    margin-left: 50px;
+}
+
+.natural h2,p{
+    margin-left: 80px;
+}
+
+.natural1 h2{
+    margin-top: 65px;
+    margin-bottom: 15px;
+}
+
+
+
+.body-item{
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #ddd;
+}
+
+.body-list{
+    width: 400px;
+    height: 550px;
+    background: #9e7bd6;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.body-list li{
+    margin: 20px 0;
+    margin-left: 25px;
+}
+
+.list-items{
+    width: 50%;
+    height: 580px;
+    background: #9e7bd6;
+    margin: 20px 20px;
+    text-align: center;
+    border-radius: 10px;
+    list-style: inside;
+    
+}
+
+.list-items img{
+    width: 100%;
+    height: 580px;
+    border-radius: 10px;
+    font-size: 35px;
+
+
+}
+
+
+.outdor{
+    background-image: url('../image/darkist.jpg');
+    height: 700px;
+    width: 100%;
+    background-size: cover;
+    margin-top: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.home-outdor{
+    width: 50%;
+    height: 350;
+    text-align: center;
+}
+
+.home-outdor h2{
+    margin: 0 0 20px 0;
+    font-size: 35px;
+}
+
+.home-outdor p{
+    line-height: 25px;
+    font-size: 18px;
+}
+
+.home-outdor a{
+    display: inline-block;
+    background: #2ecc71;
+    margin: 25px 0 10px 0;
+    font-size: 25px;
+    padding: 15px 20px;
+    border-bottom-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.home-outdor a:hover{
+    background-color: #16a085;
+}
+
+/* footer area */
+
+
+.footer-area{
+    width: auto;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+.footer{
+    width: 70%;
+    height: 3px;
+    background: #9e7bd6;
+    margin: 50px 0 50px 0;
+    display: block;
+}
+
+.items-footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.child{
+    background-color: #588157;
+    width: 32.2%;
+    height: auto;
+    margin: 10px;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.child p{
+    margin-left: 0;
+    margin: 10px 0;
+}
+
+.child a{
+    font-size: 25px;
+    padding: 15px 20px;
+    border-bottom-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background: #2ecc71;
+    margin: 20px 0;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.child a:hover{
+    background-color: #16a085;
+}
+
+
+
+.privat{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.privat1{
+    width: 500px;
+    text-align: center;
+}
+
+.privat1 h2{
+    margin: 5px 0 80px 0;
+    color: #432818;
+}
